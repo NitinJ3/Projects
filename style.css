@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(135, 210, 149);
+} 
+#head{
+    height: 10%;
+    text-align: center;
+    word-spacing: 4px;
+    color: rgb(8, 72, 88);
+    
+} 
+#options{
+    height: 40%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sel{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+img{
+    height: 100%;
+    width: 100%;
+    
+   
+}
+.sel:hover{
+    border: rgb(16, 226, 174) 2px solid;
+}
+img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+#score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;   
+}
+.countbox{
+    height: 50px;
+    width: 200px;
+    background-color: aquamarine;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(105, 16, 222, 0.963);
+    border: 2px blue solid;
+    letter-spacing: 2px;
+}
+#Reset{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+
+}
+button{
+    height: 50px;
+    width:200px;
+    font-size: 20px;
+    background: rgb(94, 94, 151);
+    color: rgb(30, 4, 54);
+}
+button:hover{
+    cursor: pointer;
+}
+#display{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(64, 93, 8);
+    font-size: large;
+
+}
